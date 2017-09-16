@@ -1,0 +1,11 @@
+.todo__link {
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.todo__link.todo__link--active {
+  border: 1px solid #f39c12;
+}
