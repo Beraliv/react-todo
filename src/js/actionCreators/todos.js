@@ -24,17 +24,20 @@ export const removeTodo = id => ({
   id
 });
 
+// TODO: use in 1.1.0
 export const editTodo = id => ({
   type: EDIT_TODO,
   id
 });
 
+// TODO: use in 1.1.0
 export const saveTodo = ({ id, title }) => ({
   type: SAVE_TODO,
   id,
   title
 });
 
+// TODO: use in 1.1.0
 export const changeTodo = ({ id, title }) => ({
   type: CHANGE_TODO,
   id,
