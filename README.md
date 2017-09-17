@@ -53,8 +53,8 @@ For version 1.0.0 it's possible to:
 
 ### Version 1.1.0
 
-* Allow to edit todos.
-* Save todos using local storage.
+* [Allow to edit todos](https://github.com/Beraliv/react-todo/issues/1).
+* [Save todos using local storage](https://github.com/Beraliv/react-todo/issues/2).
 * Add [ESLint](https://eslint.org/) support.
 
 ### Version 1.2.0
