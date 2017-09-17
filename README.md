@@ -1,7 +1,7 @@
 <p>
-<a href="https://travis-ci.org/beraliv/react-todo"><img src="https://travis-ci.org/beraliv/react-todo.svg" alt="Build Status"></a>
-<a href='https://david-dm.org/beraliv/react-todo'><img src='https://david-dm.org/beraliv/react-todo.svg' alt="Dependency Status"></a>
-<a href="https://david-dm.org/beraliv/react-todo/?type=dev"><img src="https://david-dm.org/beraliv/react-todo/dev-status.svg" alt="devDependency Status"></a>
+<a href="https://travis-ci.org/Beraliv/react-todo"><img src="https://travis-ci.org/Beraliv/react-todo.svg" alt="Build Status"></a>
+<a href='https://david-dm.org/Beraliv/react-todo'><img src='https://david-dm.org/Beraliv/react-todo.svg' alt="Dependency Status"></a>
+<a href="https://david-dm.org/Beraliv/react-todo/?type=dev"><img src="https://david-dm.org/Beraliv/react-todo/dev-status.svg" alt="devDependency Status"></a>
 </p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
@@ -20,7 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To download the project, you need to clone it first.
 
 ``
-git clone https://github.com/beraliv/react-todo
+git clone https://github.com/Beraliv/react-todo
 ``
 
 After that, you need to install all dependencies.
