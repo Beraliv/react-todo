@@ -1,3 +1,9 @@
+<p>
+<a href="https://travis-ci.org/beraliv/react-todo"><img src="https://travis-ci.org/beraliv/react-todo.svg" alt="Build Status"></a>
+<a href='https://david-dm.org/beraliv/react-todo'><img src='https://david-dm.org/beraliv/react-todo.svg' alt="Dependency Status"></a>
+<a href="https://david-dm.org/beraliv/react-todo/?type=dev"><img src="https://david-dm.org/beraliv/react-todo/dev-status.svg" alt="devDependency Status"></a>
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Table of Contents
