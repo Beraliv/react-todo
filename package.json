@@ -1,7 +1,8 @@
 {
   "name": "react-todo",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
+  "homepage": "http://beraliv.github.io/react-todo",
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.10",
@@ -16,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "npm i -g gh-pages && gh-pages -d build"
   }
 }
