@@ -1,3 +1,6 @@
+# react-todo
+React / Redux / ES6 Todo Application
+
 <p>
 <a href="https://travis-ci.org/Beraliv/react-todo"><img src="https://travis-ci.org/Beraliv/react-todo.svg" alt="Build Status"></a>
 <a href='https://david-dm.org/Beraliv/react-todo'><img src='https://david-dm.org/Beraliv/react-todo.svg' alt="Dependency Status"></a>
