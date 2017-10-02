@@ -13,11 +13,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Quick Start](#quick-start)
 - [Project description](#project-description)
+- [NPM tasks](#npm-tasks)
 - [The possibilities of the project](#the-posibilities-of-the-project)
 - [Future updates](#future-updates)
   - [Version 1.1.0](#version-1.1.0)
   - [Version 1.2.0](#version-1.2.0)
   - [Version 1.3.0](#version-1.3.0)
+- [Demo](#demo)
+- [License](#license)
+  
+  
 ## Quick Start
 
 To download the project, you need to clone it first.
@@ -49,6 +54,19 @@ The project consists of:
 * [Flat UI Colors](https://flatuicolors.com/).
 * Pure [CSS](https://www.w3schools.com/css/css_intro.asp).
 
+## NPM tasks
+
+### `npm run predeploy`
+
+It builds the project and put all files to `build` folder
+
+### `npm run deploy`
+
+It saves `build` folder on a `gh-pages` branch creating it in case it doesn't exist.
+After that you can see [Demo](#demo).
+
+NB: it requires `npm` and `gh-pages` in a global space. Before running the task `npm` installs `gh-pages`.
+
 ## The possibilities of the project
 
 For version 1.0.0 it's possible to:
@@ -77,3 +95,11 @@ For version 1.0.0 it's possible to:
 * Add an adaptive design.
 * Improve support for old browsers.
 * Update UI.
+
+## Demo
+
+You can see built example [here](https://beraliv.github.io/react-todo/)
+
+## License
+
+MIT License
