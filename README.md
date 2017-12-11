@@ -5,6 +5,7 @@ React / Redux / ES6 Todo Application
 <a href="https://travis-ci.org/Beraliv/react-todo"><img src="https://travis-ci.org/Beraliv/react-todo.svg" alt="Build Status"></a>
 <a href='https://david-dm.org/Beraliv/react-todo'><img src='https://david-dm.org/Beraliv/react-todo.svg' alt="Dependency Status"></a>
 <a href="https://david-dm.org/Beraliv/react-todo/?type=dev"><img src="https://david-dm.org/Beraliv/react-todo/dev-status.svg" alt="devDependency Status"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT licence"></a>
 </p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
