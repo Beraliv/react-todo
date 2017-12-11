@@ -1,4 +1,4 @@
-let todoId = 0;
+import { v4 } from 'node-uuid';
 
 export const ADD_TODO = 'ADD_TODO';
 export const TOGGLE_TODO = 'TOGGLE_TODO';
@@ -10,7 +10,7 @@ export const TOGGLE_ALL_TODO = 'TOGGLE_ALL_TODO';
 
 export const addTodo = title => ({
   type: ADD_TODO,
-  id: todoId++,
+  id: v4(),
   title
 });
 
