@@ -50,15 +50,23 @@ npm run start
 The project consists of:
 
 * [React](https://facebook.github.io/react/) library.
-  * [Redux](http://redux.js.org/) Framework.
-  * [Redux-Saga](https://redux-saga.js.org/) Framework.
+  * [Redux](https://github.com/Beraliv/react-todo#redux) Framework.
+  * [Redux-Saga](https://github.com/Beraliv/react-todo#redux-saga) Framework.
 * [Feather Icons](https://feathericons.com/).
 * [Flat UI Colors](https://flatuicolors.com/).
 * Pure [CSS](https://www.w3schools.com/css/css_intro.asp).
 
+## Redux
+
+Redux is the framework in the project by default in the branch `master`.
+
+Documentation is available here: http://redux.js.org/
+
 ## Redux-Saga
 
 Redux-Saga is accessible in the branch `redux-saga`. PR is created and can been seen here: [PR #3](https://github.com/Beraliv/react-todo/pull/3)
+
+Documentation is available here: https://redux-saga.js.org/
 
 ## NPM tasks
 
