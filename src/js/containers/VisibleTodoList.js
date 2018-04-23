@@ -1,6 +1,6 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as actionCreators from "../actionCreators/todos";
+import * as actionCreators from '../actionCreators/todos';
 
 import TodoList from '../components/TodoList';
 import * as types from '../actionCreators/filter';
