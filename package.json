@@ -1,14 +1,14 @@
 {
   "name": "react-todo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "homepage": "http://beraliv.github.io/react-todo",
   "dependencies": {
     "classnames": "^2.2.5",
     "node-uuid": "^1.4.8",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-feather": "^1.0.7",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.13",
