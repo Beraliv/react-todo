@@ -1,4 +1,4 @@
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 
 import rootReducer from './js/reducers';
@@ -6,6 +6,7 @@ import rootSaga from './js/sagas';
 import { loadState, saveState } from './js/helpers/local-storage';
 import throttle from './js/helpers/throttle';
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const sagaMiddleware = createSagaMiddleware()
 const configureStore = () => {
   const persistedState = loadState();
@@ -13,8 +14,9 @@ const configureStore = () => {
   let store = createStore(
     rootReducer,
     persistedState,
-    // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-    applyMiddleware(sagaMiddleware)
+    composeEnhancers(
+      applyMiddleware(sagaMiddleware)
+    )
   );
   sagaMiddleware.run(rootSaga)
   
